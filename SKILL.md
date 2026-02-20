@@ -1,52 +1,53 @@
----
+# SKILL – SALAMANDER CONSENSUS (HEAT CORE EDITION)
 
-# 📡 Salamander Consensus Agent Skill
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CORE ENGINEERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Description
+• Stake-Weighted Voting Algorithm  
+• Adaptive Heat Modeling  
+• Time-Based State Mutation  
+• Dynamic Consensus Thresholding  
 
-Salamander Consensus introduces a decentralized governance
-module built on top of Intercom's peer architecture.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONSENSUS MECHANICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-It enables agents to create proposals, vote on outcomes,
-and finalize governance decisions in a lightweight CLI environment.
+• Effective Vote = stake × heat  
+• Heat amplification on activity  
+• Heat decay on inactivity  
+• Score accumulation model  
+• Proposal finalization control  
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYSTEM DESIGN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Agent Capabilities
+• Stateful runtime validator pool  
+• Proposal lifecycle management  
+• In-memory scoring engine  
+• Modular command router  
+• Mutation-safe state transitions  
 
-- Create proposal
-- Cast yes/no vote
-- Track proposal state
-- Finalize governance outcome
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CLI ENGINEERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
----
+• ANSI Color Rendering (Red / Blue / Cyan / Green / Yellow)  
+• Structured dashboard panel  
+• Dynamic render refresh  
+• Interactive command prompt  
 
-## Setup Instructions
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ADVANCED CAPABILITIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1. Navigate to the agent module:
+• Governance simulation modeling  
+• Validator reputation dynamics  
+• Weighted consensus architecture  
+• Event-driven mutation logging  
+• Adaptive participation mechanics  
 
-   cd salamander-agent
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-2. Install dependencies:
-
-   npm install
-
-3. Launch the agent:
-
-   node index.js
-
----
-
-## Example Flow
-
-propose  → create governance proposal  
-list     → view active proposals  
-vote     → cast yes/no vote  
-finalize → close proposal  
-
----
-
-## Purpose
-
-This skill demonstrates governance logic layered
-on top of Intercom's decentralized communication stack.
+Salamander Consensus – Heat Core Voting Engine

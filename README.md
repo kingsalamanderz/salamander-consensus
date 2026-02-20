@@ -1,105 +1,114 @@
-# 🦎 Salamander Consensus
+# SALAMANDER CONSENSUS
+### Heat Core Voting Engine – Red/Blue Panel Edition
 
-> A decentralized peer-to-peer governance and consensus agent built on Intercom infrastructure.
+An adaptive consensus engine featuring stake-weight voting,
+validator heat dynamics, and colored CLI dashboard rendering.
 
-Forked from: Trac-Systems/intercom  
-Built by: @kingsalamanderz  
+This fork upgrades the base system into a heat-based
+dynamic consensus simulation model.
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 🧠 Overview
+## 🧠 Core Concept
 
-Salamander Consensus extends the Intercom peer stack
-by introducing a lightweight governance layer.
+Salamander Consensus introduces:
 
-Agents can:
+• Stake-weighted voting  
+• Validator heat amplification  
+• Heat decay over time  
+• Dynamic proposal scoring  
+• Consensus threshold validation  
+• Red/Blue panel CLI interface  
 
-- Create proposals
-- Cast yes/no votes
-- Track live voting status
-- Finalize governance outcomes
+Voting weight formula:
 
-Designed for modular CLI execution and future peer integration.
+Effective Vote = stake × heat
 
----
+Heat increases when actively voting  
+Heat decays when idle
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔥 Features
+
+• Adaptive Heat Engine  
+• Stake-Based Weighted Voting  
+• Dynamic Validator Activity Tracking  
+• Proposal Finalization Logic  
+• Real-Time Score Calculation  
+• Colored CLI Dashboard  
+• Runtime State Engine  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🖥 Panel Dashboard
+
+![Panel Dashboard](proof/panel-dashboard.jpg)
+
+TRAC Address:
+trac1sesag5xrcxfek5z2w4tsd47szeqh2f5u2q4dxv5g7acdypnxe8wsa3ccsu
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## ⚙️ Installation
 
-1️⃣ Clone repository
-    • git clone https://github.com/kingsalamanderz/salamander-consensus.git
-    • cd salamander-consensus/salamander-agent
-2️⃣ Install dependencies
-    • npm install
-3️⃣ Run the agent
-    • node index.js
+git clone https://github.com/kingsalamanderz/salamander-consensus.git  
+cd salamander-consensus  
+node index.js  
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 🗳 Features
+## 🧩 Available Commands
 
-- Proposal Creation Engine  
-- Yes / No Voting System  
-- Proposal Finalization  
-- Real-time Vote Tracking  
-- Lightweight CLI Architecture  
+register   → Register validator with stake  
+propose    → Create new proposal  
+vote       → Cast weighted vote  
+finalize   → Finalize proposal  
+list       → Refresh dashboard  
+exit       → Shutdown engine  
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 📸 Proof of Execution
+## 🧮 Consensus Logic
 
-### 🦎 Agent Initialization
+Heat decay model:
 
-![Agent Online](proof/Screenshot_20260219-074802_1.jpg)
+heat = heat − (0.1 × hoursIdle)  
+minimum heat = 0.5  
 
-Agent successfully initialized and displayed governance commands.
+Consensus threshold:
 
----
+score ≥ 100 → Consensus Achieved  
+score < 100 → Consensus Failed  
 
-### 📜 Proposal Creation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-![Proposal Created](proof/Screenshot_20260219-074827_1.jpg)
+## 🏗 Architecture
 
-A governance proposal titled **"Upgrade Network"** was created.
+• Node.js CLI Engine  
+• Stateful Validator Pool  
+• Proposal Scoring Layer  
+• Heat Mutation System  
+• Dynamic Rendering Layer  
+• ANSI Color UI System  
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### 📊 Proposal Listing
+## 🚀 Why This Fork Is Different
 
-![Proposal Listing](proof/Screenshot_20260219-074911_1.jpg)
+This version introduces:
 
-The engine displayed active proposals with ID and status.
+• Adaptive validator heat modeling  
+• Weighted dynamic consensus scoring  
+• Colored red/blue CLI rendering  
+• Proposal lifecycle control  
+• Enhanced validator mutation logic  
 
----
+This is not a cosmetic fork —  
+it upgrades voting mechanics and consensus behavior.
 
-### 🗳 Voting Process
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-![Voting](proof/Screenshot_20260219-074904_1.jpg)
+## 📜 License
 
-A vote was successfully recorded within the consensus module.
-
----
-
-### ✅ Proposal Finalization
-
-![Finalized](proof/Screenshot_20260219-074937_1.jpg)
-
-The proposal status transitioned to **FINALIZED**.
-
----
-
-## 💰 Trac Address
-
-    trac1sesag5xrcxfek5z2w4tsd47szeqh2f5u2q4dxv5g7acdypnxe8wsa3ccsu
-
----
-
-## 📡 Architecture
-
-Intercom Peer Layer  
-→ Salamander Consensus Engine  
-→ Proposal State Management  
-→ Governance Finalization  
-
----
-
-Built for decentralized peer experimentation and governance research.
+MIT License – Heat Core Edition
